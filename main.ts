@@ -16,7 +16,7 @@ list.push(receivedNumber)
         basic.showLeds(`
             . . . . .
             . . . . .
-            . # # # .
+            # # # # #
             . . . . .
             . . . . .
             `, 100)
@@ -24,11 +24,11 @@ list.push(receivedNumber)
         basic.clearScreen()
     } else if (receivedNumber == 2) {
         basic.showLeds(`
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
+            . . # . .
+            . # # # .
+            # # # # #
+            . # # # .
+            . . # . .
             `)
         basic.clearScreen()
         parseMorse(morse_list)
